@@ -4,9 +4,9 @@ gem 'rspec-rails'
 gem 'guard-bundler'
 gem 'guard-rspec'
 gem 'factory_girl_rails'
-group :test, :darwin, :development do
-  gem 'ruby_gntp'
-end
+# group :test, :darwin, :development do
+#   gem 'ruby_gntp'
+# end
 group :test do
   gem 'capybara'
 end
